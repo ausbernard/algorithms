@@ -53,7 +53,7 @@ def sort_prime_factors(natural_num):
                 
 print(sort_prime_factors(600851475143))
 
-"""Story
+"""Story - Return to RHO
     # general principle and how to solve it
         # use a recursion approach
         # Rho Algorithm - prime factorization (large numbers)
