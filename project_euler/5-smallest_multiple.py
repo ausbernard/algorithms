@@ -33,28 +33,28 @@ def slowest_multiple():
     toc = time.perf_counter()
     print(f"Your algo took: {toc - tic:0.9f} seconds")
 
-def delbart(t,n):
-    if n > 0:
-        if not (t%n):
-            if delbart(t, n-1):
-                return True
-            else:
-                return False
-        else:
-            return False
-    else:
-        return True
-
-
-i = 20
-tic = time.perf_counter()
-while not delbart(i,20):
-    i +=20
-print(i)
-toc = time.perf_counter()
-print(f"Your algo took: {toc - tic:0.9f} seconds")
-
-# smallest_multiple()
+def fast():
+    tic = time.perf_counter()
+    i = 1
+    for k in (range(1, 21)):
+        print(f"top iteration {k}")
+        if i % k > 0:
+            print(f"if {i} / {k} > 0")
+            for j in range(1, 21):
+                print(f"next iteration {j}")
+                if (i*j) % k == 0:
+                    print(f"if {i} * {j} % {k} == 0")
+                    i *= j
+                    print(f"{i}*={j}")
+                    print({f"i = {i}"})
+                    break
+    print(i)
+    toc = time.perf_counter()
+    print(f"Euler algo took: {toc - tic:0.9f} seconds")
+    
+if __name__ == "__main__":
+    fast()
+    slowest_multiple()
 
 """
 lol first attempt:
