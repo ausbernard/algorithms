@@ -47,7 +47,6 @@ def delbart(t,n):
 
 
 i = 20
-
 tic = time.perf_counter()
 while not delbart(i,20):
     i +=20
