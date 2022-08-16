@@ -1,7 +1,3 @@
-from calendar import c
-from re import A
-
-
 x = 5678
 y = 1234
 n = 8
