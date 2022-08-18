@@ -1,6 +1,6 @@
-I'm game to do 60 problems Amazon.
+## All solutions are coded by me.
 
-probs:
+problems:
 1. Simple, nearly no assistance
 2. Fair, wording of the problem was unclear. 
 3. Hard, Personally... I don't feel I fully understand Rho's algorithm programtically - would like to swing back. Fascinating learning the time complexity of θ $\sqrt{n}$ for Rho.
