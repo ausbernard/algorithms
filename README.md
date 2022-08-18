@@ -1,5 +1,6 @@
 # algorithms
 a childish algorithm
+
 brushing up on algorithm design.
 
 ## Project Euler
