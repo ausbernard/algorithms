@@ -8,7 +8,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 n = 1000
 multiples = []
 
-def summ(multipes):
+def summ(multiples):
     # print(sum(multiples))
     sum_of_elements = 0
     for i in multiples:
